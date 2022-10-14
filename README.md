@@ -30,3 +30,5 @@ API DOC:
 
 User Interface link:
 [Figma link](https://www.figma.com/file/tV97GXZ3qhE5fu2g5YhuMa/UI-for-Developers?node-id=10%3A55)
+
+Permit me to make changes.
