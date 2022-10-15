@@ -1,0 +1,27 @@
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.ArtSection p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
+
+.art-first-col {
+  padding-left: 33px;
+}
+
+.input {
+  width: 537px;
+  height: 50px;
+  background: #1a1405;
+  border-radius: 51px;
+}
+
+::placeholder{
+    padding-left: 15px;
+}

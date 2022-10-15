@@ -1,13 +1,15 @@
 import React from "react";
 import "./index.css";
 import Navbar from "./Navbar";
-import Body from "./Body";
+import Hero from "./Hero";
+import ArtSection from "./ArtSection";
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <Body />
+      <Hero />
+      <ArtSection />
     </div>
   );
 }

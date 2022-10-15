@@ -1,0 +1,80 @@
+h1 {
+  font-size: 68px;
+  line-height: 72px;
+  font-weight: 700;
+}
+
+.first-col {
+  padding-left: 33px;
+}
+
+.body-blob {
+  width: 400px;
+  height: 540px;
+  background-color: var(--secondary-color);
+  border-radius: 20px 200px;
+}
+
+.second-col {
+  padding-left: 230px;
+}
+
+.body p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+.button-blob {
+  width: 208.64px;
+  height: 50px;
+  background-color: var(--secondary-color);
+  border-radius: 0px 38.1657px;
+  margin-left: 6px;
+}
+
+.button-div {
+  padding-left: 5px;
+}
+
+.button {
+  width: 208.64px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1.27219px solid var(--secondary-color);
+  border-radius: 0px 38.1657px;
+  color: #251a00;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 515px;
+}
+
+.hero-image {
+  width: 400px;
+  height: 540px;
+  position: absolute;
+  top: 100px;
+  left: 996px;
+  border-radius: 20px 200px;
+}
+
+.vector-div {
+  position: absolute;
+  width: 139.59px;
+  height: 183px;
+  left: 893px;
+  top: 157.74px;
+  background: #1a1405;
+  border-radius: 5.4955px 54.955px;
+}
+
+.vector-two{
+  position: absolute;
+  margin-left: 0px;
+}
