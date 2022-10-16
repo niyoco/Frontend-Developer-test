@@ -79,3 +79,9 @@ span {
     display: block;
   }
 }
+
+@media (max-width: 700px) {
+  .vector-div {
+    display: none;
+  }
+}
