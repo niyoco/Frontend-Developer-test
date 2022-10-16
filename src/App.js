@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <br/>
+      <br />
       <ArtSection />
     </div>
   );
