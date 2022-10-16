@@ -1,11 +1,9 @@
 h2 {
-  font-weight: 700;
   font-size: 48px;
   line-height: 72px;
 }
 
 .ArtSection p {
-  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.01em;
@@ -16,12 +14,53 @@ h2 {
 }
 
 .input {
-  width: 537px;
+  width: 437px;
   height: 50px;
   background: #1a1405;
   border-radius: 51px;
+  margin-left: 200px;
 }
 
-::placeholder{
-    padding-left: 15px;
+::placeholder {
+  padding-left: 15px;
+}
+
+.art-blob {
+  width: 300px;
+  height: 400px;
+  background: #1a1405;
+  border-radius: 180px 0px;
+}
+
+.art-blob img {
+  border-radius: 100px 0px 0px 0px;
+}
+
+h4 {
+  padding-top: 15px;
+  padding-left: 13px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.art-date {
+  padding-top: 10px;
+  padding-left: 13px;
+  font-size: 16px !important;
+  line-height: 15px;
+}
+
+.art-button {
+  width: 208.64px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1.27219px solid var(--secondary-color);
+  border-radius: 0px 38.1657px;
+  color: #251a00;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 5px solid var(--secondary-color);
+  border-right: 5px solid var(--secondary-color);
+  margin-top: 100px;
 }
