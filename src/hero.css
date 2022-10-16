@@ -78,10 +78,34 @@ span {
     margin: 0 auto;
     display: block;
   }
+  .first-col {
+    display: block;
+    text-align: start;
+  }
 }
 
 @media (max-width: 700px) {
   .vector-div {
     display: none;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .second-col {
+    padding-left: 0px;
+    margin: 0 auto;
+    display: block;
+  }
+  .hero-image {
+    width: 220px;
+    height: 340px;
+    border-radius: 13px 100px;
+    border-bottom: 15px solid var(--secondary-color);
+    border-right: 15px solid var(--secondary-color);
+  }
+  .hero {
+    display: block;
+    margin: 0 auto;
   }
 }

@@ -57,7 +57,7 @@ export default function ArtSection() {
           </div>
         </div>
       </div>
-      <div className="row mb-5">
+      <div className="row mb-5 art-second-row">
         <div className="col-md-4">
           <div className="art-blob">
             <img src={first} className="img-fluid" alt="artimage"></img>

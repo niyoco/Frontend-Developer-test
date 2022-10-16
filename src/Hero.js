@@ -6,7 +6,7 @@ import vector from "./Vector-one.png";
 export default function Hero() {
   return (
     <div className="hero container-fluid ">
-      <div className="row pt-5 mb-5  d-none d-lg-flex ">
+      <div className="row pt-5 mb-5  d-none d-md-flex ">
         <div className="col-md-6 first-col">
           <h1 className="fw-bold">
             Discover amazing art around the
@@ -37,7 +37,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="mobile d-block d-lg-none">
+      <div className="mobile d-block d-md-none mx-auto">
         <h1 className="fw-bold mb-5 mt-3">
           Discover amazing art around the
           <span> world</span>{" "}
