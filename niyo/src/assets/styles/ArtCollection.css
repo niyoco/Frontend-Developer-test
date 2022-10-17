@@ -82,7 +82,7 @@
 
 }
 .art__previewImg{
-    width: 400px;
+    max-width: 400px;
     height: 326px;
 }
 .art__previewImg img{
@@ -127,5 +127,10 @@
   
     .ac__desc__form__input{
         width: 100%
+    }
+}
+@media screen and (max-width : 768px) {
+    .art__previewCard{
+        width: 200px;
     }
 }

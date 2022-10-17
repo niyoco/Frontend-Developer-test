@@ -35,7 +35,7 @@ function ArtCollection() {
         .sort(() => Math.random() - 0.5)
         .filter((item, index) => index < 6);
 
-        console.log(newList);
+        // console.log(newList);
         setArtWorks(newList);
     }
 
