@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;;
+  text-decoration: none;
+}
+.container{
+  background-color: #110C00;
+}
+.bgs{
+  background-color: #110C00;
+  color: rgba(255, 255, 255, 1);
+  height: calc(100vh - 12vh);
+}
+a{
+}

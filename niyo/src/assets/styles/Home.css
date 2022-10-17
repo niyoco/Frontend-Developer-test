@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+  min-height: 100vh; 
+  display: flex;
+  background-color: #110C00;
+  justify-content: space-between;
+  padding-top: 131px;
+
+}
+.home__text{
+    height: 400px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 60px;
+    flex : 50%;
+}
+.home__text__header{
+    font-size: 68px;
+    line-height: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+.unique__text{
+    font-size: 68px;
+    line-height: 72px;
+    color: rgba(251, 175, 0, 1);
+}
+.home__text__caption{
+    /* max-width: 505px; */
+    color: rgba(255, 255, 255, 1);
+    padding-top: 45px;
+    font-size: 20px;
+}
+.ExploreBtn_wrap{
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    display: flex;
+    justify-content: left;
+}
+
+.ExploreBtn{
+    width: 208px;
+    height: 77.7px;
+    background-color: rgba(255, 255, 255, 1);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color : black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 68px;
+    box-shadow: 6.36px 7.63px rgba(251, 175, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(37, 26, 0, 1);
+    cursor: pointer;
+}
+/* image section */
+.home__artImage{
+    padding-left: 100px;
+    padding-right: 81px;
+    
+    flex : 50%;
+}
+/* head sculpt  */
+.headSculpt{
+    /* position: relative; */
+}
+.headSculpt__img{
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 3%;
+    box-shadow: 27px 31px rgba(251, 175, 0, 1);
+}
+.floatingNet{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: -60px;
+}
+
+@media screen and (max-width : 1024px){
+    .home{
+        flex-wrap: wrap;
+    }
+    .home__text{
+        text-align: center;
+    }
+    .home__artImage{
+        margin-top: 250px;
+        
+        padding-left: 25px;
+        padding-right: 61px;
+    }
+ 
+    .ExploreBtn_wrap{
+        justify-content: center;
+    }
+
+    .home__text__header{
+        font-size: 58px;
+    }
+    .unique__text{
+        font-size: 58px;
+    }
+    .home__text__caption{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .home__text, .home__artImage{
+        flex: 100%;
+    }
+    .home__text__header{
+        font-size: 48px;
+    }
+    .unique__text{
+        font-size: 48px;
+    }
+    .home__text__caption{
+        font-size: 17px;
+    }                                                              
+}

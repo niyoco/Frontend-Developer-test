@@ -1,0 +1,131 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.ac{
+    min-height: 100vh;
+}
+.explorebg{
+  background-color: #110C00;
+}
+.ac__desc{
+    margin-top: 70px;
+    padding: 60px 33px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+.ac__desc__form{
+    margin-top: 30px;
+    width: 400px;
+    flex: 50%;
+
+    display: flex;
+    justify-content: right;
+}
+.ac__desc_text{
+    flex: 50%;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.ac__desc_text__title{
+    font-weight: 700;
+    line-height: 72px;
+    font-size: 48px;
+}
+.ac__desc_text__caption{
+    max-width: 632px;
+    font-size: 20px;
+}
+.ac__desc__form__input{
+    width: 100%;
+    height: 66px;
+    border-radius: 51px;
+    border: none;
+    background-color: rgba(26, 20, 5, 1);
+    padding-left: 30px; 
+    color: white;
+    font-size: 18px;
+}
+.ac__desc__form__input::placeholder{
+    font-size: 18px;
+    text-transform: capitalize;   
+    
+    
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: rgba(251, 175, 0, 1);
+}
+.ac__desc__form__input:focus{
+    outline: 1px solid rgba(251, 175, 0, 1);
+
+}
+
+        /* ART PREVIEW SECTION */
+.art__preview{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.art__preview a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.art__previewCard{
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+.art__previewImg{
+    width: 400px;
+    height: 326px;
+}
+.art__previewImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30%;
+}
+.art__previewText{
+    background-color: rgba(26, 20, 5, 1);
+    /* height: 140px; */
+    border-bottom-right-radius: 30%;
+    padding: 20px 30px 47px;
+    max-width: 400px;
+    
+}
+
+.art__previewTitle{
+    font-size: 24px;
+    word-wrap: break-word;
+
+}
+.art__previewDate{
+    font-size: 18px;
+    padding-top: 31px;
+    padding-bottom: 7px;
+}
+.art__previewLocation{
+    font-size: 18px;
+}
+@media screen and (max-width : 1024px) {
+  
+    .ac__desc{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width : 768px) {
+    .ac__desc__form, .ac__desc_text{
+        flex: 100%;
+    }
+  
+    .ac__desc__form__input{
+        width: 100%
+    }
+}
