@@ -9,8 +9,7 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <br />
-      <ArtSection />
+      <ArtSection defaultKeyword="mask" />
     </div>
   );
 }
