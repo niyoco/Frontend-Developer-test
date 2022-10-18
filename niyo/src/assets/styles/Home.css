@@ -95,7 +95,6 @@
         text-align: center;
     }
     .home__artImage{
-        margin-top: 250px;
         
         padding-left: 25px;
         padding-right: 61px;
@@ -122,6 +121,9 @@
     }
     .home__text__header{
         font-size: 48px;
+    }
+    .home__artImage{
+        margin-top: 250px;
     }
     .unique__text{
         font-size: 48px;
