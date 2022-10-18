@@ -9,8 +9,13 @@ export default function Hero() {
     <div className="hero container-fluid ">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold text-white" href="#">
-            <img className="img-fluid align-img" width={25} src={icon}></img>{" "}
+          <a class="navbar-brand fw-bold text-white" href="9" rel="noreferrer">
+            <img
+              className="img-fluid align-img"
+              width={25}
+              src={icon}
+              alt="icon"
+            ></img>
             Artisto
           </a>
           <button
@@ -29,23 +34,31 @@ export default function Hero() {
               <a
                 class="nav-link active text-white fw-bold"
                 aria-current="page"
-                href="#"
+                href="9"
               >
                 Events
               </a>
-              <a class="nav-link text-white fw-bold" href="#">
+              <a class="nav-link text-white fw-bold" href="9" rel="noreferrer">
                 Museum
               </a>
-              <a class="nav-link text-white fw-bold" href="#">
+              <a class="nav-link text-white fw-bold" href="9" rel="noreferrer">
                 Arts
               </a>
-              <a class="nav-link text-white fw-bold" href="#">
+              <a class="nav-link text-white fw-bold" href="9" rel="noreferrer">
                 Gallaries
               </a>
-              <a class="nav-link login fw-bold text-dark" href="#">
+              <a
+                class="nav-link login fw-bold text-dark"
+                href="9"
+                rel="noreferrer"
+              >
                 Login
               </a>
-              <a class="nav-link explore fw-bold text-dark" href="#">
+              <a
+                class="nav-link explore fw-bold text-dark"
+                href="9"
+                rel="noreferrer"
+              >
                 Explore arts
               </a>
             </div>
