@@ -25,11 +25,18 @@ export default function ArtSection() {
       {artist.map((artiste) => (
         <div className="col-md-4">
           <div className="art-blob">
-            <img src={first} className="img-fluid" alt="artimage"></img>
+            <img
+              src={first}
+              className="img-fluid art-blob-img"
+              alt="artimage"
+            ></img>
             <h4 key={artiste["id_artist"]}>
               {artiste["classification_title"]}
             </h4>
-            <p className="art-date">{artiste["artist_display"]}</p>
+            <p className="art-date">
+              {artiste["date_display"]},{" "}
+              <span className="artist-title">{artiste["artist_title"]}</span>
+            </p>
           </div>
         </div>
       ))}

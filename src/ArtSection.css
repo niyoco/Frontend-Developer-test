@@ -38,16 +38,23 @@ h2 {
 
 h4 {
   padding-top: 15px;
-  padding-left: 13px;
+  padding-left: 15px;
   font-size: 20px;
   line-height: 30px;
+  text-transform: capitalize;
 }
 
 .art-date {
-  padding-top: 10px;
-  padding-left: 13px;
+  padding-left: 15px;
   font-size: 16px !important;
-  line-height: 15px;
+  line-height: 2;
+}
+
+.artist-title {
+  padding-left: 15px;
+  font-size: 16px !important;
+  line-height: 1;
+  color: #ffffff;
 }
 
 .art-button {
@@ -68,6 +75,7 @@ h4 {
 .art-blob {
   display: flexbox;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -90,6 +98,7 @@ h4 {
     height: 350px;
     background: #1a1405;
     border-radius: 160px 0px;
+    margin-top: 20px;
   }
   h2 {
     line-height: 52px;
@@ -100,14 +109,15 @@ h4 {
     letter-spacing: 0;
   }
   .art-date {
-    padding-top: 5px;
-    padding-left: 8px;
-    font-size: 12px !important;
-    line-height: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 15px !important;
+    line-height: 1.5;
   }
   .art-blob {
     display: flexbox;
     margin: 0 auto;
+    margin-top: 20px;
   }
 }
 
@@ -132,5 +142,9 @@ h4 {
 
   .art-first-col {
     padding-left: 0;
+  }
+  .art-date {
+    padding: 5px;
+    line-height: 1.5;
   }
 }
