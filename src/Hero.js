@@ -1,12 +1,52 @@
 import React from "react";
+
 import "./hero.css";
 import image from "./hero-image.png";
-import vector from "./Vector-one.png";
 
 export default function Hero() {
   return (
     <div className="hero container-fluid ">
-      <div className="row pt-5 mb-5  d-none d-md-flex ">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Navbar
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link active" aria-current="page" href="#">
+                Events
+              </a>
+              <a class="nav-link" href="#">
+                Museum
+              </a>
+              <a class="nav-link" href="#">
+                Arts
+              </a>
+              <a class="nav-link" href="#">
+                Gallaries
+              </a>
+              <a class="nav-link" href="#">
+                Login
+              </a>
+              <a class="nav-link" href="#">
+                Explore arts
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div className="row pt-5 mb-5  d-none d-md-flex hero-section">
         <div className="col-md-6 first-col">
           <h1 className="fw-bold">
             Discover amazing art around the
@@ -26,15 +66,6 @@ export default function Hero() {
             alt={image}
             width={100}
           ></img>
-          <div className="vector-div">
-            <img
-              className="img-fluid vector-one"
-              src={vector}
-              alt={vector}
-              width={106.76}
-              height={100.37}
-            ></img>
-          </div>
         </div>
       </div>
       <div className="mobile d-block d-md-none mx-auto">

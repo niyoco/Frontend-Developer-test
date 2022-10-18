@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import first from "./first-art-image.png";
+import Art from "./Art";
 import "./ArtSection.css";
 
 export default function ArtSection() {
