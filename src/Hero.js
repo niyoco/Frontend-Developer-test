@@ -1,4 +1,5 @@
 import React from "react";
+import icon from "./icon.png";
 
 import "./hero.css";
 import image from "./hero-image.png";
@@ -6,10 +7,11 @@ import image from "./hero-image.png";
 export default function Hero() {
   return (
     <div className="hero container-fluid ">
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand fw-bold text-white" href="#">
+            <img className="img-fluid align-img" width={25} src={icon}></img>{" "}
+            Artisto
           </a>
           <button
             class="navbar-toggler"
@@ -24,22 +26,26 @@ export default function Hero() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a
+                class="nav-link active text-white fw-bold"
+                aria-current="page"
+                href="#"
+              >
                 Events
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link text-white fw-bold" href="#">
                 Museum
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link text-white fw-bold" href="#">
                 Arts
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link text-white fw-bold" href="#">
                 Gallaries
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link login fw-bold text-dark" href="#">
                 Login
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link explore fw-bold text-dark" href="#">
                 Explore arts
               </a>
             </div>
@@ -68,7 +74,8 @@ export default function Hero() {
           ></img>
         </div>
       </div>
-      <div className="mobile d-block d-md-none mx-auto">
+
+      <div className="mobile d-block d-md-none mx-auto hero-section">
         <h1 className="fw-bold mb-5 mt-3">
           Discover amazing art around the
           <span> world</span>{" "}

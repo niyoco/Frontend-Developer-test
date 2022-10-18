@@ -1,8 +1,32 @@
-.hero-section{
+.hero-section {
   margin-top: 100px;
 }
 
+.align-img {
+  vertical-align: top;
+}
 
+.login {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0px 30px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+}
+
+.explore {
+  border: 2px solid #ffffff;
+  border-radius: 0px 30px;
+  width: 130px;
+  height: 42px;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 5px solid var(--secondary-color);
+  border-right: 5px solid var(--secondary-color);
+}
 
 h1 {
   font-size: 68px;
@@ -108,5 +132,9 @@ span {
   .hero {
     display: block;
     margin: 0 auto;
+  }
+
+  .hero-section {
+    margin-top: 80px;
   }
 }
