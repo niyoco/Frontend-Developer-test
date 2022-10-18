@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import first from "./first-art-image.png";
 
+
 import "./ArtSection.css";
 
 export default function ArtSection() {
@@ -45,6 +46,7 @@ export default function ArtSection() {
       <button className="art-button mb-5 mx-auto d-block">
         Explore more <i class="fa-regular fa-arrow-right"></i>
       </button>
+
     </div>
   );
 }
