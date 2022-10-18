@@ -2,17 +2,16 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import first from "./first-art-image.png";
 
-
 import "./ArtSection.css";
 
 export default function ArtSection() {
   const [artist, setArtist] = useState([]);
+  let apiUrl =
+    "https://api.artic.edu/api/v1/artworks?=${keyword}fields=id=${apiKey},title,artist_display,date_display,main_reference_number";
 
   useEffect(() => {
     axios
-      .get(
-        "https://api.artic.edu/api/v1/artworks?=${keyword}fields=id=${apiKey},title,artist_display,date_display,main_reference_number"
-      )
+      .get(apiUrl)
       .then((res) => {
         console.log(res.data.data);
         setArtist(res.data.data);
@@ -46,7 +45,6 @@ export default function ArtSection() {
       <button className="art-button mb-5 mx-auto d-block">
         Explore more <i class="fa-regular fa-arrow-right"></i>
       </button>
-
     </div>
   );
 }
