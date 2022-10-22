@@ -6,8 +6,10 @@ import "./ArtSection.css";
 
 export default function ArtSection() {
   const [artist, setArtist] = useState([]);
-  let apiUrl =
-    "https://api.artic.edu/api/v1/artworks?=${keyword}fields=id=${apiKey},title,artist_display,date_display,main_reference_number";
+
+  let apiKey = 129884;
+
+  let apiUrl = `https://api.artic.edu/api/v1/artworks?=${apiKey}fields=id,title,artist_display,date_display,main_reference_number`;
 
   useEffect(() => {
     axios
@@ -19,7 +21,7 @@ export default function ArtSection() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [apiUrl]);
 
   return (
     <div className="row mb-5 art-div">
